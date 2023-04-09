@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/responsive.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li class="header-logo"><a href=""><img src="./assets/img/logo.png" alt="" class="logo"></a></li>
+                    <li id="home">Home</li>
+                    <li id="series">Series</li>
+                    <li id="movies">Movies</li>
+                    <li id="kids">Kids</li>
+                </ul>
+                <div class="personnel">
+                    <input type="text" placeholder="Search">
+                    <ul class="suggest">
+                    </ul>
+                    <div class="account">
+                        <a href=""><img src="./assets/img/ava2.jpg" alt="" class="avatar"></a>
+                    </div>
+                </div>
+        </nav>
+        </header>
+        <div class="movies__content">
+            <div class="movie__content-thumbnail">
+                <div class="movie__content-thumbnail-wrap">
+                    <img src="./assets/img/thumnail1.webp" alt="" class="movie__thumbnail-img movie__thumbnail1-img hide">
+                    <img src="./assets/img/thumbnail2.webp" alt="" class="movie__thumbnail-img movie__thumbnail2-img hide">
+                    <img src="./assets/img/thumbnail3.webp" alt="" class="movie__thumbnail-img movie__thumbnail3-img hide">
+                    <img src="./assets/img/thumbnail4.webp" alt="" class="movie__thumbnail-img movie__thumbnail4-img hide">
+                </div>
+                <div class="movie__content-thumbnail-btn">
+                    <i class="btn btn-prev fa-solid fa-angle-left"></i>
+                    <i class="btn btn-next fa-solid fa-angle-right"></i>
+                </div>
+                <div class="movie__content-thumbnail-dots">
+                    <span class="movie__content-thumbnail-dot dot-1"></span>
+                    <span class="movie__content-thumbnail-dot dot-2"></span>
+                    <span class="movie__content-thumbnail-dot dot-3"></span>
+                    <span class="movie__content-thumbnail-dot dot-4"></span>
+                </div>
+            </div>
+            <div class="movies__content-list">
+                <h4 class="movies__content-list-type">Popular</h4>
+                <div class="movies__content-list-movies-card-btn">
+                    <i class="movies-card-btn movies-card-btn-left fa-solid fa-angle-left"></i>
+                    <i class="movies-card-btn movies-card-btn-right fa-solid fa-solid fa-angle-right"></i>
+                </div>
+                <div class="movies__content-list-movies">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
