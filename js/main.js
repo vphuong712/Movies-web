@@ -66,7 +66,7 @@ const web = {
         })
         
         // render list movies of type
-        homeType.onclick = (e) => {
+        homeType.onclick = () => {
             this.render()
         }
 
